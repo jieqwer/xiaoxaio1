@@ -1,0 +1,49 @@
+body{
+    background: #6bc4cc;
+}
+.content1{
+    width: 90%;
+    margin: 14px auto;
+}
+
+.content1>a{
+    width: 300px;
+    height: 230px;
+    border: 1px solid #3ed;
+    display: block;
+    float: left;
+    margin-left: 64px;
+    margin-top: 10px;
+    transition: 0.3s linear;
+}
+.content1>a:hover{
+    width: 300px;
+    height: 230px;
+    border: 1px solid #3ed;
+    display: block;
+    float: left;
+    margin-left: 64px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px #45cc8a;
+    transform: translate(-10px,-10px);
+}
+
+.content1 a img{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #3ed;
+    display: block;
+    float: left;
+    margin: 10px auto;
+}
+.content1 a span{
+    width: 20px;
+    height: 230px;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+    padding-top: 20px;
+
+}
